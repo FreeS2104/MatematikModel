@@ -1,0 +1,57 @@
+﻿<Window x:Class="findCouple.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:findCouple"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="410" KeyDown="newGame" ResizeMode="NoResize" Icon="Icons/iconG.png"
+        WindowStartupLocation="CenterScreen" Background="White">
+    <Grid x:Name="grid" Width="375" Height="300" Margin="10" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="75"/>
+            <ColumnDefinition Width="75"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="congratulations" HorizontalAlignment="Center" Height="140" Margin="0,10,0,0"
+              Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center" Width="225" Grid.ColumnSpan="3"
+              Grid.Column="1" Panel.ZIndex="5" Visibility="Hidden">
+            <Rectangle HorizontalAlignment="Left" Height="75" Stroke="Black" VerticalAlignment="Top" Width="173" Margin="26, 25,0,0" StrokeThickness="0" Fill="White" />
+            <Label Content="Затраченое время" HorizontalAlignment="Left" Margin="39,29,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="14"/>
+            <Label Name="time" Content="02:32" Margin="80,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Width="63"/>
+            <Label Content="Пробел - начать заново" HorizontalAlignment="Left" Margin="49,76,0,0" VerticalAlignment="Top" FontSize="10"/>
+
+        </Grid>
+        <Label Content="Вероятность открытия второй карты равна" HorizontalAlignment="Left" Height="35" Margin="4,95,0,-55" Grid.Row="3" VerticalAlignment="Top" Grid.ColumnSpan="4" Width="252" Background="{x:Null}"/>
+        <TextBox x:Name="TTT" Grid.Column="3" HorizontalAlignment="Left" Height="23" Margin="36,99,-6,-47" Grid.Row="3" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Label x:Name="x1"   HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Panel.ZIndex="2"/>
+        <Label Name="x2"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="1" Panel.ZIndex="2"/>
+        <Label Name="x3"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="2" Panel.ZIndex="2"/>
+        <Label Name="x4"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="3" Panel.ZIndex="2"/>
+        <Label Name="x5"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="4" Panel.ZIndex="2"/>
+        <Label Name="x6"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Row="1" Panel.ZIndex="2"/>
+        <Label Name="x7"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="1" Grid.Row="1" Panel.ZIndex="2"/>
+        <Label Name="x8"  HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="2" Grid.Row="1" Panel.ZIndex="2"/>
+        <Label Name="x9" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="3" Grid.Row="1" Panel.ZIndex="2"/>
+        <Label Name="x10" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="4" Grid.Row="1" Panel.ZIndex="2"/>
+        <Label Name="x11" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Row="2" Panel.ZIndex="2"/>
+        <Label Name="x12" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="1" Grid.Row="2" Panel.ZIndex="2"/>
+        <Label Name="x13" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="2" Grid.Row="2" Panel.ZIndex="2"/>
+        <Label Name="x14" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="3" Grid.Row="2" Panel.ZIndex="2" />
+        <Label Name="x15" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="4" Grid.Row="2" Panel.ZIndex="2" />
+        <Label Name="x16" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Row="3" Panel.ZIndex="2"/>
+        <Label Name="x17" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="1" Grid.Row="3" Panel.ZIndex="2"/>
+        <Label Name="x18" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="2" Grid.Row="3" Panel.ZIndex="2"/>
+        <Label Name="x19" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="3" Grid.Row="3" Panel.ZIndex="2"/>
+        <Label Name="x20" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="55" Grid.Column="4" Grid.Row="3" Panel.ZIndex="2"/>
+
+    </Grid>
+</Window>

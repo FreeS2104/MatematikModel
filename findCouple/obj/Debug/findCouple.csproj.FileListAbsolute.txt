@@ -1,0 +1,15 @@
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.csprojAssemblyReference.cache
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\MainWindow.g.cs
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\App.g.cs
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple_MarkupCompile.cache
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple_MarkupCompile.lref
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\bin\Debug\findCouple.exe.config
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\bin\Debug\findCouple.exe
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\bin\Debug\findCouple.pdb
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\MainWindow.baml
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.g.resources
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.Properties.Resources.resources
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.csproj.GenerateResource.cache
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.csproj.CoreCompileInputs.cache
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.exe
+C:\Users\chernyshev.ai1245\source\repos\findCouple\findCouple\obj\Debug\findCouple.pdb
